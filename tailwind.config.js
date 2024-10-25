@@ -40,8 +40,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'servicesBackground': "url('img/objects-mobile.png')",
-        'section-pattern': "url('img/first-background-mobile.png')"
+        'servicesBackground': "url('/public/img/objects-mobile.png')",
+        'section-pattern': "url('/public/img/first-background-desktop.png')"
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 45s linear infinite'
