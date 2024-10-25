@@ -973,6 +973,9 @@ video {
 .bg-servicesBackground {
   background-image: url('/public/img/objects-mobile.png');
 }
+.bg-\[url\(\'\/img\/objects-mobile\.png\'\)\] {
+  background-image: url('/img/objects-mobile.png');
+}
 .from-primaryBlue75 {
   --tw-gradient-from: rgb(3 61 88 / 75%) var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(3 61 88 / 0) var(--tw-gradient-to-position);
