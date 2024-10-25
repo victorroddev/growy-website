@@ -971,7 +971,7 @@ video {
   background-image: none;
 }
 .bg-servicesBackground {
-  background-image: url('/src/img/objects-mobile.png');
+  background-image: url('public/img/objects-mobile.png');
 }
 .from-primaryBlue75 {
   --tw-gradient-from: rgb(3 61 88 / 75%) var(--tw-gradient-from-position);
