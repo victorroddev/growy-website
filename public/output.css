@@ -629,6 +629,9 @@ video {
 .mr-72 {
   margin-right: 18rem;
 }
+.mt-1 {
+  margin-top: 0.25rem;
+}
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -667,9 +670,6 @@ video {
 }
 .mt-\[1\.5rem\] {
   margin-top: 1.5rem;
-}
-.mt-1 {
-  margin-top: 0.25rem;
 }
 .flex {
   display: flex;
@@ -888,11 +888,11 @@ video {
 .gap-4 {
   gap: 1rem;
 }
-.gap-5 {
-  gap: 1.25rem;
-}
 .gap-8 {
   gap: 2rem;
+}
+.gap-9 {
+  gap: 2.25rem;
 }
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
@@ -956,8 +956,9 @@ video {
   border-top-color: rgb(43 165 178 / var(--tw-border-opacity));
   border-bottom-color: rgb(43 165 178 / var(--tw-border-opacity));
 }
-.bg-anotherBlue {
-  background-color: rgba(60, 78, 118, 0.25);
+.bg-backgroundBlack {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 11, 16, var(--tw-bg-opacity));
 }
 .bg-black {
   --tw-bg-opacity: 1;
@@ -988,12 +989,8 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-backgroundBlack {
-  --tw-bg-opacity: 1;
-  background-color: rgba(0, 11, 16, var(--tw-bg-opacity));
-}
 .bg-formSectionBackground {
-  background-image: url('/public/img/forms-pattern.png');
+  background-image: url('./public/img/forms-pattern.png');
 }
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
@@ -1005,7 +1002,7 @@ video {
   background-image: none;
 }
 .bg-servicesBackground {
-  background-image: url('/public/img/objects-mobile.png');
+  background-image: url('./public/img/objects-mobile.png');
 }
 .from-primaryBlue75 {
   --tw-gradient-from: rgb(3 61 88 / 75%) var(--tw-gradient-from-position);
@@ -1029,20 +1026,14 @@ video {
   --tw-gradient-to: rgb(43 165 178 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), rgb(43 165 178 /45%) var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
-.to-primaryBlue20 {
-  --tw-gradient-to: rgb(3 61 88 / 20%) var(--tw-gradient-to-position);
-}
-.to-secondaryBlue0 {
-  --tw-gradient-to: rgb(43 165 178 / 0%) var(--tw-gradient-to-position);
-}
 .to-backgroundBlack {
   --tw-gradient-to: rgba(0, 11, 16) var(--tw-gradient-to-position);
 }
+.to-primaryBlue20 {
+  --tw-gradient-to: rgb(3 61 88 / 20%) var(--tw-gradient-to-position);
+}
 .to-60\% {
   --tw-gradient-to-position: 60%;
-}
-.to-100\% {
-  --tw-gradient-to-position: 100%;
 }
 .bg-cover {
   background-size: cover;
