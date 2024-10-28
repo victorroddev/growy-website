@@ -1041,6 +1041,9 @@ video {
 .to-60\% {
   --tw-gradient-to-position: 60%;
 }
+.to-100\% {
+  --tw-gradient-to-position: 100%;
+}
 .bg-cover {
   background-size: cover;
 }
