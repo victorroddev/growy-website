@@ -15,6 +15,7 @@ module.exports = {
     },
 
     colors: {
+      deepBlue: 'rgba(60, 78, 118)',
       anotherBlue: 'rgba(60, 78, 118, 0.25)',
       anotherBlueBorder: 'rgba(3, 61, 88, 0.6)',
       fontBlue: 'rgba(60, 78, 118, 1)',
