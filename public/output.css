@@ -668,6 +668,9 @@ video {
 .mt-\[1\.5rem\] {
   margin-top: 1.5rem;
 }
+.mt-1 {
+  margin-top: 0.25rem;
+}
 .flex {
   display: flex;
 }
@@ -817,6 +820,9 @@ video {
   --tw-rotate: 31deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 @keyframes infinite-scroll {
 
   from {
@@ -939,6 +945,11 @@ video {
 .border-whiteShadow {
   border-color: rgb(255 255 255 /15%);
 }
+.border-y-secondaryBlue {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(43 165 178 / var(--tw-border-opacity));
+  border-bottom-color: rgb(43 165 178 / var(--tw-border-opacity));
+}
 .bg-anotherBlue {
   background-color: rgba(60, 78, 118, 0.25);
 }
@@ -971,8 +982,12 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-backgroundBlack {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 11, 16, var(--tw-bg-opacity));
+}
 .bg-formSectionBackground {
-  background-image: url('public/img/forms-pattern.png');
+  background-image: url('/public/img/forms-pattern.png');
 }
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
@@ -984,7 +999,7 @@ video {
   background-image: none;
 }
 .bg-servicesBackground {
-  background-image: url('public/img/objects-mobile.png');
+  background-image: url('/public/img/objects-mobile.png');
 }
 .from-primaryBlue75 {
   --tw-gradient-from: rgb(3 61 88 / 75%) var(--tw-gradient-from-position);
@@ -1013,6 +1028,9 @@ video {
 }
 .to-secondaryBlue0 {
   --tw-gradient-to: rgb(43 165 178 / 0%) var(--tw-gradient-to-position);
+}
+.to-backgroundBlack {
+  --tw-gradient-to: rgba(0, 11, 16) var(--tw-gradient-to-position);
 }
 .to-60\% {
   --tw-gradient-to-position: 60%;
@@ -1059,6 +1077,10 @@ video {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -1358,6 +1380,10 @@ video {
 
   .md\:justify-start {
     justify-content: flex-start;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 
   .md\:rounded-md {
