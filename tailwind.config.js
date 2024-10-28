@@ -15,6 +15,7 @@ module.exports = {
     },
 
     colors: {
+      backgroundBlack: 'rgba(0, 11, 16)',
       deepBlue: 'rgba(60, 78, 118)',
       anotherBlue: 'rgba(60, 78, 118, 0.25)',
       anotherBlueBorder: 'rgba(3, 61, 88, 0.6)',
@@ -41,9 +42,9 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'servicesBackground': "url('public/img/objects-mobile.png')",
-        'section-pattern': "url('public/first-background-mobile.png')",
-        'formSectionBackground': "url('public/img/forms-pattern.png')"
+        'servicesBackground': "url('/public/img/objects-mobile.png')",
+        'section-pattern': "url('/public/first-background-mobile.png')",
+        'formSectionBackground': "url('/public/img/forms-pattern.png')"
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 45s linear infinite'
