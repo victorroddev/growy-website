@@ -674,9 +674,6 @@ video {
 .mt-\[1\.5rem\] {
   margin-top: 1.5rem;
 }
-.mt-3 {
-  margin-top: 0.75rem;
-}
 .flex {
   display: flex;
 }
@@ -879,9 +876,6 @@ video {
 .items-center {
   align-items: center;
 }
-.justify-normal {
-  justify-content: normal;
-}
 .justify-start {
   justify-content: flex-start;
 }
@@ -999,7 +993,7 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-formSectionBackground {
-  background-image: url('public/img/forms-pattern.png');
+  background-image: url('img/forms-pattern.png');
 }
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
@@ -1011,7 +1005,7 @@ video {
   background-image: none;
 }
 .bg-servicesBackground {
-  background-image: url('public/img/objects-mobile.png');
+  background-image: url('img/objects-mobile.png');
 }
 .from-primaryBlue75 {
   --tw-gradient-from: rgb(3 61 88 / 75%) var(--tw-gradient-from-position);
