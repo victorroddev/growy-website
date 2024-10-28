@@ -42,7 +42,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'servicesBackground': "url('/public/img/objects-mobile.png')",
-        'section-pattern': "url('/public/first-background-mobile.png')"
+        'section-pattern': "url('/public/first-background-mobile.png')",
+        'formSectionBackground': "url('/public/img/forms-pattern.png')"
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 45s linear infinite'
