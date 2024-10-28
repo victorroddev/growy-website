@@ -888,6 +888,12 @@ video {
 .gap-4 {
   gap: 1rem;
 }
+.gap-5 {
+  gap: 1.25rem;
+}
+.gap-8 {
+  gap: 2rem;
+}
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
@@ -1034,6 +1040,9 @@ video {
 }
 .to-60\% {
   --tw-gradient-to-position: 60%;
+}
+.to-100\% {
+  --tw-gradient-to-position: 100%;
 }
 .bg-cover {
   background-size: cover;
