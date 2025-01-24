@@ -674,6 +674,9 @@ video {
 .mt-\[1\.5rem\] {
   margin-top: 1.5rem;
 }
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
 .flex {
   display: flex;
 }
@@ -721,6 +724,22 @@ video {
 .size-\[4\.5rem\] {
   width: 4.5rem;
   height: 4.5rem;
+}
+.size-3 {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+.size-11 {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+.size-6 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.size-8 {
+  width: 2rem;
+  height: 2rem;
 }
 .h-1\/2 {
   height: 50%;
@@ -788,8 +807,17 @@ video {
 .min-w-5 {
   min-width: 1.25rem;
 }
+.min-w-32 {
+  min-width: 8rem;
+}
+.min-w-\[280px\] {
+  min-width: 280px;
+}
 .max-w-screen-2xl {
   max-width: 1536px;
+}
+.max-w-\[280px\] {
+  max-width: 280px;
 }
 .-rotate-12 {
   --tw-rotate: -12deg;
@@ -908,8 +936,15 @@ video {
 .overflow-hidden {
   overflow: hidden;
 }
+.hyphens-auto {
+  -webkit-hyphens: auto;
+          hyphens: auto;
+}
 .text-balance {
   text-wrap: balance;
+}
+.text-pretty {
+  text-wrap: pretty;
 }
 .rounded-2xl {
   border-radius: 1rem;
@@ -1061,10 +1096,6 @@ video {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 }
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
 .px-28 {
   padding-left: 7rem;
   padding-right: 7rem;
@@ -1077,17 +1108,21 @@ video {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -1103,6 +1138,15 @@ video {
 }
 .text-right {
   text-align: right;
+}
+.indent-8 {
+  text-indent: 2rem;
+}
+.indent-2 {
+  text-indent: 0.5rem;
+}
+.align-baseline {
+  vertical-align: baseline;
 }
 .font-headers {
   font-family: Urbanist;
@@ -1423,6 +1467,21 @@ video {
   .md\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .md\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .md\:py-14 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .md\:pl-9 {
